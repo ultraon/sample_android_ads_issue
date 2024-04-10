@@ -34,6 +34,8 @@ class _MainPageState extends State<MainPage> {
         children: _children,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        showUnselectedLabels: false,
         onTap: onTabTapped,
         currentIndex: _currentIndex,
         items: const [
