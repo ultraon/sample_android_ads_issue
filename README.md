@@ -12,3 +12,10 @@ To run the desired flavor either use the launch configuration in VSCode/Android 
 # Development
 $ flutter run --flavor development --target lib/main_development.dart
 ```
+
+### Steps to reproduce the issue:
+1. Run the app
+2. Click on another tab (at the bottom)
+
+**Expected:** The video Ads should pause when the ads widget frame isn't visible.
+**Actual:** The video Ads keep playing even when the ads widget frame isn't visible.
