@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sample_android_ads_issue/counter/counter.dart';
 import 'package:sample_android_ads_issue/l10n/l10n.dart';
+import 'package:sample_android_ads_issue/main/view/main_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const MainPage(),
     );
   }
 }
